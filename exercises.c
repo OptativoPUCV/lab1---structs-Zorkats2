@@ -53,11 +53,14 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   Persona * p = (Persona *) malloc(sizeof(Persona));
-   //asignar valores de entrada a los campos de p
-
+    Persona* nuevaPersona = (Persona*)malloc(sizeof(Persona));
+    
+    strcpy(nuevaPersona->nombre, nombre);
+    strcpy(nuevaPersona->rut, rut);
+    nuevaPersona->edad = edad;
+    
+    return nuevaPersona;
 }
-
 /*
 Ejercicio 4.
 Considerando la estructura "Vector", escriba 
