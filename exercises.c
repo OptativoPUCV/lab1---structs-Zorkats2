@@ -76,7 +76,11 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+  Vector *vector  = (Vector*)malloc(sizeof(Vector));
+  if (vector == NULL) exit(EXIT_FAILURE);
+  
+  
+  return NULL;
 }
 
 /*
