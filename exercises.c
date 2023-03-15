@@ -49,9 +49,9 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
    //asignar valores de entrada a los campos de p
 
   for (int i = 0 ; i < 0 ; i++)
-    persona.edad[i] = p;
-    persona.rut[i] = p;
-    persona.edad = p;
+    Persona.edad[i] = p;
+    Persona.rut[i] = p;
+    Persona.edad = p;
    return p;
 }
 
