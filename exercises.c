@@ -83,7 +83,7 @@ Vector * crearVector(int n) {
   if (vector->datos == NULL) exit(EXIT_FAILURE);
 
   vector-> capacidad = n;
-  return NULL;
+  return vector;
 }
 
 /*
