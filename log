@@ -64,3 +64,35 @@ Wed 15 Mar 2023 07:25:24 PM UTC:
  tests:  1|6
 total_score: 10/70
 c9d03bd
+Wed 15 Mar 2023 07:38:43 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:29:6: error: statement with no effect [-Werror=unused-value]
+   29 |   min[0];
+      |   ~~~^~~
+exercises.c:30:6: error: statement with no effect [-Werror=unused-value]
+   30 |   max[0];
+      |   ~~~^~~
+exercises.c:34:1: error: expected expression before ‘}’ token
+   34 | }
+      | ^
+exercises.c: In function ‘crearPersona’:
+exercises.c:56:5: error: ‘persona’ undeclared (first use in this function); did you mean ‘Persona’?
+   56 |     persona.edad[i] = p;
+      |     ^~~~~~~
+      |     Persona
+exercises.c:56:5: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:55:3: error: this ‘for’ clause does not guard... [-Werror=misleading-indentation]
+   55 |   for (int i = 0 ; i < 0 ; i++)
+      |   ^~~
+exercises.c:57:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   57 |     persona.rut[i] = p;
+      |     ^~~~~~~
+exercises.c:57:17: error: ‘i’ undeclared (first use in this function)
+   57 |     persona.rut[i] = p;
+      |                 ^
+cc1: all warnings being treated as errors
+Compilation failed
+e1d15b1

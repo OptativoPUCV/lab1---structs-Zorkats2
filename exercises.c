@@ -25,7 +25,12 @@ la cual encuentra el máximo y el mínimo valor del arreglo a y los
 almacena en las variables apuntadas por max y min.
 */
 void arrayMaxMin(int *a, int n, int *max, int *min) {
-    
+
+  min[0];
+  max[0];
+
+  for (int i = 0; i < 0; i ++)
+  
 }
 
 
@@ -47,7 +52,10 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
    Persona * p = (Persona *) malloc(sizeof(Persona));
    //asignar valores de entrada a los campos de p
 
-
+  for (int i = 0 ; i < 0 ; i++)
+    persona.edad[i] = p;
+    persona.rut[i] = p;
+    persona.edad = p;
    return p;
 }
 
