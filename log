@@ -41,3 +41,20 @@ exercises.c:19:3: error: assignment to ‘int *’ from ‘int’ makes pointer 
 cc1: all warnings being treated as errors
 Compilation failed
 dd631ec
+Wed 15 Mar 2023 07:23:51 PM UTC: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:18:3: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   18 | a = *b;
+      |   ^
+exercises.c:19:3: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   19 | a = *aux;
+      |   ^
+exercises.c:17:6: error: ‘aux’ is used uninitialized [-Werror=uninitialized]
+   17 | *aux = *a;
+      | ~~~~~^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+d33019b
