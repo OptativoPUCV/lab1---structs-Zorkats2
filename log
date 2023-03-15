@@ -96,3 +96,25 @@ exercises.c:57:17: error: ‘i’ undeclared (first use in this function)
 cc1: all warnings being treated as errors
 Compilation failed
 e1d15b1
+Wed 15 Mar 2023 07:38:53 PM UTC: 
+ exercises.c | 4 ----
+ 1 file changed, 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:52:5: error: ‘persona’ undeclared (first use in this function); did you mean ‘Persona’?
+   52 |     persona.edad[i] = p;
+      |     ^~~~~~~
+      |     Persona
+exercises.c:52:5: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:51:3: error: this ‘for’ clause does not guard... [-Werror=misleading-indentation]
+   51 |   for (int i = 0 ; i < 0 ; i++)
+      |   ^~~
+exercises.c:53:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   53 |     persona.rut[i] = p;
+      |     ^~~~~~~
+exercises.c:53:17: error: ‘i’ undeclared (first use in this function)
+   53 |     persona.rut[i] = p;
+      |                 ^
+cc1: all warnings being treated as errors
+Compilation failed
+0ff1352
