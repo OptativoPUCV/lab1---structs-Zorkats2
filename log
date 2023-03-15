@@ -14,3 +14,16 @@ Wed 15 Mar 2023 07:19:59 PM UTC:
  tests:  0|7
 total_score: 0/70
 31b9ee9
+Wed 15 Mar 2023 07:20:33 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:17:1: error: invalid type argument of unary ‘*’ (have ‘int’)
+   17 | *aux = *a;
+      | ^~~~
+exercises.c:19:6: error: invalid type argument of unary ‘*’ (have ‘int’)
+   19 | *a = *aux;
+      |      ^~~~
+Compilation failed
+ba3a80d
