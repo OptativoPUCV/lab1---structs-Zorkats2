@@ -58,3 +58,9 @@ exercises.c:17:6: error: ‘aux’ is used uninitialized [-Werror=uninitialized]
 cc1: all warnings being treated as errors
 Compilation failed
 d33019b
+Wed 15 Mar 2023 07:25:24 PM UTC: 
+ exercises.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+ tests:  1|6
+total_score: 10/70
+c9d03bd
