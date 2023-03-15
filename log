@@ -141,3 +141,19 @@ exercises.c:54:12: error: expected identifier or ‘(’ before ‘.’ token
 cc1: all warnings being treated as errors
 Compilation failed
 1ff76bc
+Wed 15 Mar 2023 07:39:41 PM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:52:12: error: expected identifier or ‘(’ before ‘.’ token
+   52 |     Persona.edad[i] = p;
+      |            ^
+exercises.c:53:12: error: expected identifier or ‘(’ before ‘.’ token
+   53 |     Persona.rut[i] = p;
+      |            ^
+exercises.c:54:12: error: expected identifier or ‘(’ before ‘.’ token
+   54 |     Persona.edad = p;
+      |            ^
+Compilation failed
+89d5d49

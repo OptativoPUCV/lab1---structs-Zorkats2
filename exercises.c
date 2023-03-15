@@ -48,11 +48,13 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
    Persona * p = (Persona *) malloc(sizeof(Persona));
    //asignar valores de entrada a los campos de p
 
-  for (int i = 0 ; i < 0 ; i++)
+  for (int i = 0 ; i < 0 ; i++){
     Persona.edad[i] = p;
     Persona.rut[i] = p;
     Persona.edad = p;
-   return p;
+  }
+  
+  return p;
 }
 
 /*
