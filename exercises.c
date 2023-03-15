@@ -53,17 +53,15 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-    // Crear una nueva persona
     Persona * p  = (Persona*)malloc(sizeof(Persona));
     
-    // Asignar los datos ingresados como parámetros
     strcpy(p->nombre, nombre);
     strcpy(p->rut, rut);
     p->edad = edad;
     
-    // Retornar un puntero a la nueva persona
     return p;
 }
+
 /*
 Ejercicio 4.
 Considerando la estructura "Vector", escriba 
