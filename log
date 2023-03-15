@@ -1,0 +1,10 @@
+Wed 15 Mar 2023 07:19:51 PM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:18:4: error: expected expression before ‘=’ token
+   18 | a* = *b;
+      |    ^
+Compilation failed
+09581c4
