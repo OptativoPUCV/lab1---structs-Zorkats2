@@ -173,3 +173,17 @@ exercises.c:52:30: error: expected ‘;’ before ‘}’ token
       |   ~                           
 Compilation failed
 b035f58
+Wed 15 Mar 2023 10:30:44 PM UTC: 
+ exercises.c | 13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:56:14: error: unused variable ‘p’ [-Werror=unused-variable]
+   56 |    Persona * p = (Persona *) malloc(sizeof(Persona));
+      |              ^
+exercises.c:59:1: error: control reaches end of non-void function [-Werror=return-type]
+   59 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+501339b

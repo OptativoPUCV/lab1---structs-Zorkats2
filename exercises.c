@@ -26,7 +26,15 @@ almacena en las variables apuntadas por max y min.
 */
 void arrayMaxMin(int *a, int n, int *max, int *min) {
 
-  
+  int minaux = 0;
+  int maxaux = 0;
+
+  for (int i = 0 ;  i < n ; i++){
+    if (minaux == 0 || minaux > a[i]) minaux = a[i];
+    if (maxaux == 0 || maxaux < a[i]) maxaux = a[i];
+  }
+  *min = minaux;
+  *max = maxaux;
 }
 
 
@@ -48,11 +56,6 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
    Persona * p = (Persona *) malloc(sizeof(Persona));
    //asignar valores de entrada a los campos de p
 
-  for (size_t i = 0 ; i < 0 ; i++){
-    scanf(%s, Persona.nombre)
-  }
-  
-  return p;
 }
 
 /*
