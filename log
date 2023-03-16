@@ -272,3 +272,9 @@ exercises.c:95:2: error: ‘Vector’ has no member named ‘aux’
       |  ^~
 Compilation failed
 0f29549
+Thu 16 Mar 2023 12:32:04 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+78919b8
